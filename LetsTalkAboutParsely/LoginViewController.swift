@@ -20,6 +20,15 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let user = PFUser.currentUser() {
+            self.user = user
+            self.performSegueWithIdentifier("launch", sender: self)
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

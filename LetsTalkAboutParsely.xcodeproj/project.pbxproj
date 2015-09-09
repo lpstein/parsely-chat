@@ -16,6 +16,7 @@
 		CD50B3671BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */; };
 		CD50B3711BA0EA5200ADDD88 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3701BA0EA5200ADDD88 /* LoginViewController.swift */; };
 		CD50B3731BA0EE4B00ADDD88 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3721BA0EE4B00ADDD88 /* ChatViewController.swift */; };
+		CD50B3751BA0F35600ADDD88 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3741BA0F35600ADDD88 /* MessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkAboutParselyTests.swift; sourceTree = "<group>"; };
 		CD50B3701BA0EA5200ADDD88 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD50B3721BA0EE4B00ADDD88 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CD50B3741BA0F35600ADDD88 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 		FAEDDACC67DDED09CCEBA590 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				CD50B34E1BA0E53F00ADDD88 /* Supporting Files */,
 				CD50B3701BA0EA5200ADDD88 /* LoginViewController.swift */,
 				CD50B3721BA0EE4B00ADDD88 /* ChatViewController.swift */,
+				CD50B3741BA0F35600ADDD88 /* MessageTableViewCell.swift */,
 			);
 			path = LetsTalkAboutParsely;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				CD50B3711BA0EA5200ADDD88 /* LoginViewController.swift in Sources */,
 				CD50B3531BA0E53F00ADDD88 /* ViewController.swift in Sources */,
 				CD50B3731BA0EE4B00ADDD88 /* ChatViewController.swift in Sources */,
+				CD50B3751BA0F35600ADDD88 /* MessageTableViewCell.swift in Sources */,
 				CD50B3511BA0E53F00ADDD88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
