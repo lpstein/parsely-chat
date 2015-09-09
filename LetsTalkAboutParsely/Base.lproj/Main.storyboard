@@ -85,7 +85,7 @@
                     <connections>
                         <outlet property="emailField" destination="6jw-De-yOD" id="NCo-01-Zvc"/>
                         <outlet property="passwordField" destination="pWi-Hd-rgb" id="OHf-uU-JTk"/>
-                        <segue destination="Tsm-3T-y0u" kind="show" identifier="launch" id="cx8-hl-GnH"/>
+                        <segue destination="Tsm-3T-y0u" kind="presentation" identifier="launch" id="cx8-hl-GnH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9OL-fi-3bR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -103,8 +103,35 @@
                     <view key="view" contentMode="scaleToFill" id="uHH-gb-eeQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VsG-NI-ion">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="[Message field goes here]" id="FQu-2j-5J9">
+                                        <barButtonItem key="rightBarButtonItem" title="Send" id="s8n-hm-hPG">
+                                            <connections>
+                                                <action selector="sendMessage:" destination="Tsm-3T-y0u" id="5QZ-Ka-Qla"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VsG-NI-ion" firstAttribute="leading" secondItem="uHH-gb-eeQ" secondAttribute="leading" id="1Ig-1N-OO8"/>
+                            <constraint firstAttribute="trailing" secondItem="VsG-NI-ion" secondAttribute="trailing" id="c2X-5B-mXP"/>
+                            <constraint firstItem="VsG-NI-ion" firstAttribute="top" secondItem="uHH-gb-eeQ" secondAttribute="top" id="xPo-Dh-geo"/>
+                        </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="CYQ-76-air"/>
+                        <barButtonItem title="Item" id="pJV-3i-2f8"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="navBar" destination="VsG-NI-ion" id="XNV-dM-Iul"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLD-1J-K9B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,14 +9,18 @@
 import UIKit
 import Parse
 
-class ChatViewController: UIViewController {
-
+class ChatViewController: UIViewController, UITextFieldDelegate {
+    @IBOutlet weak var navBar: UINavigationBar!
+    let textField = UITextField()
     var user: PFUser!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        textField.placeholder = "Type a message"
+        textField.returnKeyType = UIReturnKeyType.Send
+        textField.delegate = self
+        navBar.topItem?.titleView = textField
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,15 +28,20 @@ class ChatViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        sendMessage(textField)
+        return true
     }
-    */
-
+    
+    @IBAction func sendMessage(sender: AnyObject) {
+        NSLog(textField.text)
+        
+        let message = PFObject(className: "Message")
+        message["text"] = "Hai guyz"
+        message.saveInBackgroundWithBlock { (success, error) -> Void in
+            if success {
+                NSLog("Sent message")
+            }
+        }
+    }
 }
