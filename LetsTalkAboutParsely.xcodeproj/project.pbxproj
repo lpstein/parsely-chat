@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD50B3511BA0E53F00ADDD88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3501BA0E53F00ADDD88 /* AppDelegate.swift */; };
+		CD50B3531BA0E53F00ADDD88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3521BA0E53F00ADDD88 /* ViewController.swift */; };
+		CD50B3561BA0E53F00ADDD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD50B3541BA0E53F00ADDD88 /* Main.storyboard */; };
+		CD50B3581BA0E53F00ADDD88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD50B3571BA0E53F00ADDD88 /* Images.xcassets */; };
+		CD50B35B1BA0E53F00ADDD88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD50B3591BA0E53F00ADDD88 /* LaunchScreen.xib */; };
+		CD50B3671BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD50B3611BA0E53F00ADDD88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD50B3431BA0E53F00ADDD88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD50B34A1BA0E53F00ADDD88;
+			remoteInfo = LetsTalkAboutParsely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD50B34B1BA0E53F00ADDD88 /* LetsTalkAboutParsely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalkAboutParsely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD50B34F1BA0E53F00ADDD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD50B3501BA0E53F00ADDD88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD50B3521BA0E53F00ADDD88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD50B3551BA0E53F00ADDD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD50B3571BA0E53F00ADDD88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD50B35A1BA0E53F00ADDD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD50B3601BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkAboutParselyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD50B3651BA0E53F00ADDD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkAboutParselyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD50B3481BA0E53F00ADDD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50B35D1BA0E53F00ADDD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD50B3421BA0E53F00ADDD88 = {
+			isa = PBXGroup;
+			children = (
+				CD50B34D1BA0E53F00ADDD88 /* LetsTalkAboutParsely */,
+				CD50B3631BA0E53F00ADDD88 /* LetsTalkAboutParselyTests */,
+				CD50B34C1BA0E53F00ADDD88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD50B34C1BA0E53F00ADDD88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD50B34B1BA0E53F00ADDD88 /* LetsTalkAboutParsely.app */,
+				CD50B3601BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD50B34D1BA0E53F00ADDD88 /* LetsTalkAboutParsely */ = {
+			isa = PBXGroup;
+			children = (
+				CD50B3501BA0E53F00ADDD88 /* AppDelegate.swift */,
+				CD50B3521BA0E53F00ADDD88 /* ViewController.swift */,
+				CD50B3541BA0E53F00ADDD88 /* Main.storyboard */,
+				CD50B3571BA0E53F00ADDD88 /* Images.xcassets */,
+				CD50B3591BA0E53F00ADDD88 /* LaunchScreen.xib */,
+				CD50B34E1BA0E53F00ADDD88 /* Supporting Files */,
+			);
+			path = LetsTalkAboutParsely;
+			sourceTree = "<group>";
+		};
+		CD50B34E1BA0E53F00ADDD88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD50B34F1BA0E53F00ADDD88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD50B3631BA0E53F00ADDD88 /* LetsTalkAboutParselyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */,
+				CD50B3641BA0E53F00ADDD88 /* Supporting Files */,
+			);
+			path = LetsTalkAboutParselyTests;
+			sourceTree = "<group>";
+		};
+		CD50B3641BA0E53F00ADDD88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD50B3651BA0E53F00ADDD88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD50B34A1BA0E53F00ADDD88 /* LetsTalkAboutParsely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD50B36A1BA0E53F00ADDD88 /* Build configuration list for PBXNativeTarget "LetsTalkAboutParsely" */;
+			buildPhases = (
+				CD50B3471BA0E53F00ADDD88 /* Sources */,
+				CD50B3481BA0E53F00ADDD88 /* Frameworks */,
+				CD50B3491BA0E53F00ADDD88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsTalkAboutParsely;
+			productName = LetsTalkAboutParsely;
+			productReference = CD50B34B1BA0E53F00ADDD88 /* LetsTalkAboutParsely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD50B35F1BA0E53F00ADDD88 /* LetsTalkAboutParselyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD50B36D1BA0E53F00ADDD88 /* Build configuration list for PBXNativeTarget "LetsTalkAboutParselyTests" */;
+			buildPhases = (
+				CD50B35C1BA0E53F00ADDD88 /* Sources */,
+				CD50B35D1BA0E53F00ADDD88 /* Frameworks */,
+				CD50B35E1BA0E53F00ADDD88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD50B3621BA0E53F00ADDD88 /* PBXTargetDependency */,
+			);
+			name = LetsTalkAboutParselyTests;
+			productName = LetsTalkAboutParselyTests;
+			productReference = CD50B3601BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD50B3431BA0E53F00ADDD88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Patrick Stein";
+				TargetAttributes = {
+					CD50B34A1BA0E53F00ADDD88 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CD50B35F1BA0E53F00ADDD88 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CD50B34A1BA0E53F00ADDD88;
+					};
+				};
+			};
+			buildConfigurationList = CD50B3461BA0E53F00ADDD88 /* Build configuration list for PBXProject "LetsTalkAboutParsely" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD50B3421BA0E53F00ADDD88;
+			productRefGroup = CD50B34C1BA0E53F00ADDD88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD50B34A1BA0E53F00ADDD88 /* LetsTalkAboutParsely */,
+				CD50B35F1BA0E53F00ADDD88 /* LetsTalkAboutParselyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD50B3491BA0E53F00ADDD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50B3561BA0E53F00ADDD88 /* Main.storyboard in Resources */,
+				CD50B35B1BA0E53F00ADDD88 /* LaunchScreen.xib in Resources */,
+				CD50B3581BA0E53F00ADDD88 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50B35E1BA0E53F00ADDD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD50B3471BA0E53F00ADDD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50B3531BA0E53F00ADDD88 /* ViewController.swift in Sources */,
+				CD50B3511BA0E53F00ADDD88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD50B35C1BA0E53F00ADDD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD50B3671BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD50B3621BA0E53F00ADDD88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD50B34A1BA0E53F00ADDD88 /* LetsTalkAboutParsely */;
+			targetProxy = CD50B3611BA0E53F00ADDD88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD50B3541BA0E53F00ADDD88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD50B3551BA0E53F00ADDD88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD50B3591BA0E53F00ADDD88 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD50B35A1BA0E53F00ADDD88 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD50B3681BA0E53F00ADDD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD50B3691BA0E53F00ADDD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD50B36B1BA0E53F00ADDD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsTalkAboutParsely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD50B36C1BA0E53F00ADDD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsTalkAboutParsely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD50B36E1BA0E53F00ADDD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LetsTalkAboutParselyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsTalkAboutParsely.app/LetsTalkAboutParsely";
+			};
+			name = Debug;
+		};
+		CD50B36F1BA0E53F00ADDD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LetsTalkAboutParselyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsTalkAboutParsely.app/LetsTalkAboutParsely";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD50B3461BA0E53F00ADDD88 /* Build configuration list for PBXProject "LetsTalkAboutParsely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50B3681BA0E53F00ADDD88 /* Debug */,
+				CD50B3691BA0E53F00ADDD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD50B36A1BA0E53F00ADDD88 /* Build configuration list for PBXNativeTarget "LetsTalkAboutParsely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50B36B1BA0E53F00ADDD88 /* Debug */,
+				CD50B36C1BA0E53F00ADDD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD50B36D1BA0E53F00ADDD88 /* Build configuration list for PBXNativeTarget "LetsTalkAboutParselyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50B36E1BA0E53F00ADDD88 /* Debug */,
+				CD50B36F1BA0E53F00ADDD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD50B3431BA0E53F00ADDD88 /* Project object */;
+}
