@@ -14,6 +14,8 @@
 		CD50B3581BA0E53F00ADDD88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD50B3571BA0E53F00ADDD88 /* Images.xcassets */; };
 		CD50B35B1BA0E53F00ADDD88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD50B3591BA0E53F00ADDD88 /* LaunchScreen.xib */; };
 		CD50B3671BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */; };
+		CD50B3711BA0EA5200ADDD88 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3701BA0EA5200ADDD88 /* LoginViewController.swift */; };
+		CD50B3731BA0EE4B00ADDD88 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50B3721BA0EE4B00ADDD88 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		CD50B3601BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkAboutParselyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD50B3651BA0E53F00ADDD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD50B3661BA0E53F00ADDD88 /* LetsTalkAboutParselyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkAboutParselyTests.swift; sourceTree = "<group>"; };
+		CD50B3701BA0EA5200ADDD88 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD50B3721BA0EE4B00ADDD88 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FAEDDACC67DDED09CCEBA590 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,8 @@
 				CD50B3571BA0E53F00ADDD88 /* Images.xcassets */,
 				CD50B3591BA0E53F00ADDD88 /* LaunchScreen.xib */,
 				CD50B34E1BA0E53F00ADDD88 /* Supporting Files */,
+				CD50B3701BA0EA5200ADDD88 /* LoginViewController.swift */,
+				CD50B3721BA0EE4B00ADDD88 /* ChatViewController.swift */,
 			);
 			path = LetsTalkAboutParsely;
 			sourceTree = "<group>";
@@ -287,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD50B3711BA0EA5200ADDD88 /* LoginViewController.swift in Sources */,
 				CD50B3531BA0E53F00ADDD88 /* ViewController.swift in Sources */,
+				CD50B3731BA0EE4B00ADDD88 /* ChatViewController.swift in Sources */,
 				CD50B3511BA0E53F00ADDD88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
