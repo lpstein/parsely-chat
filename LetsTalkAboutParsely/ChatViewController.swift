@@ -10,20 +10,16 @@ import UIKit
 import Parse
 
 class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate {
+    @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var navBar: UINavigationBar!
     
-    let textField = UITextField()
     var user: PFUser!
     var messages: [PFObject] = []
     var timer: NSTimer? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        textField.placeholder = "Type a message"
-        textField.returnKeyType = UIReturnKeyType.Send
-        textField.delegate = self
         
         tableView.estimatedRowHeight = 20
         tableView.rowHeight = UITableViewAutomaticDimension
@@ -60,8 +56,9 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewData
     @IBAction func sendMessage(sender: AnyObject) {
         let message = PFObject(className: "Message")
         message["user"] = user
-        message["text"] = "Hai guyz"
-        message.saveInBackgroundWithBlock { (success, error) -> Void in
+        message["text"] = textField.text
+        textField.text = ""
+        message.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             if success {
                 NSLog("Sent message")
             }
